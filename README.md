@@ -1,3 +1,3 @@
-# onwardfreedom
-everyday learnings from my cs internship
-internship duration may 2024 augest 2024 
+# OnwardFreedom
+Everyday Learnings from my CS Internship
+Internship duration May 2024 Augest 2024 
