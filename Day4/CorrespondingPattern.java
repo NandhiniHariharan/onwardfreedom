@@ -2,7 +2,7 @@ package Day4;
 
 import java.util.Scanner;
 
-public class CorrespondingStairs {
+public class CorrespondingPattern {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
          System.out.print("Enter the Integer: ");
