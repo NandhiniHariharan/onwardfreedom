@@ -2,7 +2,7 @@ package Day5;
 
 import java.util.Scanner;
 
-public class exponential {
+public class Exponential {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package Day5;
-
-public class log {
+import java.util.Scanner;
+public class Log {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
          System.out.print("Enter a integer: ");
