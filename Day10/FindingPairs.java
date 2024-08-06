@@ -11,7 +11,7 @@ public class FindingPairs {
           
                 }
             }
-            System.out.println(count);
+            System.out.println("Total pairs are: "+count);
         }
         
     }
