@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <h1 style="text-align: center;">Travel Booking Form</h1>
+    </head>
+    <body>
+        <form>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label for="e-mail">E-Mail:</label>
+            <input type="e-mail" id="e-mail">
+            <br>
+            <br>
+            <lable for="phonenumber">Phone Number:</lable>
+            <input type="tel" id="phonenumber">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Travel Preferences</legend>
+            <label for="start-date">Preferred Start Date: </label>
+            <input type="date" id="date">
+            <br>
+            <br>
+            <label for="end-date">Preferred End Date:</label>
+            <input type="date" id="date">
+            <br>
+            <br>
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+            <option value=" ">Select Destination</option>
+            <option value="SouthKorea">South Korea</option>
+            <option value="Paris">Paris</option>
+            <option value="newyork">Newyork</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="France">France</option>
+            <option value="newzealand">New Zealand</option>
+            </select>
+            <br>
+            <br>
+            <label for="travel-class">Travel Class:</label>
+            <select id="travel-class" name="travel-class">
+            <option value=" ">Select Travel Class</option>
+            <option value="Economy">Economy</option>
+            <option value="Business">Business</option>
+            <option value="firstclass">First Class</option>
+            </select>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Activities</legend>
+            <label>
+            <input type="checkbox" name="Activities" value="sightseeing">
+            Sightseeing
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="Activities" value="advanturesports">
+            Advanture Sports
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="Activities" value="BeachRelaxation">
+            Beach Relaxation
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="Activities" value="culturalexploration">
+            Cultural Exploration
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="Activities" value="firecamp">
+            Firecamp
+        </label>
+        <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Special Requests</legend>
+            <label for="specialrequests">Additional Comments:</label>
+            <br>
+            <textarea id="specialrequests" name="specialrequests" rows="4" cols="50"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    </body>
+</HTML>
