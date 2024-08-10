@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -5,19 +7,79 @@ body {
 }
 .unique-title {
     background-color: #2c3e50;
-    padding: 20px 0;
     color: white;
-    border-radius: 8px 8px 0 0;
-    text-align: left;
+    display: flex;
+}
+.box{
+    background-color: #1e2933;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+.mail{
+    margin-left: 20px;
+    fill: #ddd;
+}
+.num{
+    fill: #ddd;
+    margin-left: 100px;
+}
+.loc{
+    margin-left: 20px;
+    fill: #ddd;
+}
+.link{
+    margin-left: 100px;
+    fill: #ddd;
 }
 .container{
     width: 100%;
     max-width: 900px;
     margin: 20px auto;
     background-color: #ffffff;
-    border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .text{
-    margin: 30px;
+    margin: 20px 0 0 20px ;
+    max-width: 70%;
+    justify-content: space-between;
+    margin-top: 0.5mm;
+    
+    
+}
+.unique-title h1 {
+    font-size: 27px;
+    flex-grow: 1;
+    padding: 20px 0 0px 20px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.unique-title p {
+    font-size: 15px;
+    padding: 0 0 0 20px;
+}
+.unique-title .info{
+    flex-grow: 1;
+    margin-left: 20px;
+    flex-direction: row;
+}
+.unique-title img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid rgb(4, 149, 185);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+.image-cell {
+    padding: 20px;
+    background-color: #2c3e50;
+    text-align: right;
+    border-radius: 0 8px 8px 0;
+}
+.para{
+color: rgb(4, 149, 185);
+font-size: 20px;
 }
