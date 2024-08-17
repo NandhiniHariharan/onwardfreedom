@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0; 
+}
+.container{
+    width: 100%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 0px solid #ddd;
+    margin-top: -2px;
+}
+.backbox1{
+    background-color: rgb(17, 14, 27);
+    display: flex;
+    width: 100%;
+}
+
+.allbox{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius:  5px 0px 0px 5px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: static;
+}
+.searchbox{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: static;
+    width: 400%;
+    margin-top: 11px;
+    margin-left: 40px;
+}
+.searchbar{
+    background-color: rgb(255, 171, 101);
+    display: flex;
+    padding: 9.5px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: static;
+    width: 8%;
+    margin-top: 11px;
+    margin-left: 500px;
+    border-radius:  0px 5px 5px 0px;
+}
+.backbox1 img{
+    width: 90px;
+    height: 30px;
+    padding: 20px 10px 10px 20px;
+}
+.backbox1 svg{
+    margin-left: 15px;
+}
+.delivery{
+    color: white;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: static;
+}
+.langEN{
+    font-size: 17px;
+    color: white;
+    padding: 0 0 0 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: static;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.langsignin{
+    font-size: 13px;
+    color: rgb(224, 221, 221);
+    padding: 0 0 0 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: static;
+    line-height: 1.2; 
+    margin-bottom: 0; 
+    text-align: left;
+}
+
+.langacc{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 0 0 0 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: static;
+    line-height: 1.2; 
+    margin-top: 0; 
+    text-align: left;
+}
+.cart{
+    background-color: white;
+    margin-left: 300px;
+}
+.backbox2{
+    background-color: rgb(42, 46, 71);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+}
+.menu-icon {
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px; 
+    padding: 0 0 0 20px; 
+}
+
+.menu-icon div {
+    width: 50%;
+    height: 3px;
+    background-color: #ffffff; 
+    margin: 6px 0;
+    border-radius: 2px;
+   
+}
+
+.menu-icon:hover div {
+    background-color: #ff9900;
+}
+
+.allmenu {
+    color: white;
+    font-size: 17px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    margin-left: -25px;
+    font-style: bold;
+}
+.menutext{
+    color: white;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    padding: 0 0 0 15px;
+}
+.bookimg{
+    display: block;
+    width: 100%;
+    height: auto;
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%);
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    margin-top: -636px;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+}
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.grid-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; 
+    z-index: 2; 
+    width: 60%; 
+    height: 60%;
+}
+
+.image-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.image-table td {
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+.image-table img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px; 
+}
