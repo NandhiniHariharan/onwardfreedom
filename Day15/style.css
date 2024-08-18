@@ -20,7 +20,7 @@ body {
     background-color: rgb(216, 216, 216);
     display: flex;
     width: 70%;
-    margin-top: 12px;
+    margin-top: 13px;
     margin-left: 50px;
     padding: 10px;
     border-radius:  5px 0px 0px 5px;
@@ -45,12 +45,12 @@ body {
     background-color: rgb(255, 171, 101);
     display: flex;
     padding: 9.5px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: static;
     width: 8%;
-    margin-top: 11px;
+    margin-top: 12px;
     margin-left: 500px;
     border-radius:  0px 5px 5px 0px;
 }
@@ -139,8 +139,8 @@ body {
     font-size: 17px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
-    margin-left: -25px;
     font-style: bold;
+    margin-left: -29px;
 }
 .menutext{
     color: white;
@@ -151,10 +151,72 @@ body {
 }
 .bookimg{
     display: block;
-    width: 100%;
     height: auto;
-    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) -10%, rgba(0, 0, 0, 1) 100%);
     mask-size: cover;
     mask-repeat: no-repeat;
-    margin-top: -636px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 108px;
+}
+.tabling {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    margin-top: 250px;
+    border-spacing: 15px;
+}
+
+.tdata {
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8); 
+    width: 100px;
+    margin: 0 auto;
+    z-index: 2;
+    
+}
+.tabled{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8); 
+    width: 80px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.tdata img {
+    width: 100px;
+    height: 95px;
+    margin: 10px;
+    display: inline-block;
+}
+.tabled img {
+    width: 80px;
+    height: 75px;
+    margin: 10px;
+    display: inline-block;
+}
+.header {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+.cap{
+    text-align: left;
+    font-size: 15px;
+}
+.small-text {
+    display: block;
+    font-size: 15px;
+    color: blue;
+    margin-top: 7px;
+
 }
