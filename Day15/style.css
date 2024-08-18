@@ -165,7 +165,7 @@ body {
 .tabling {
     width: 100%;
     position: relative;
-    padding: 20px;
+    padding: 10px;
     margin-top: 250px;
     border-spacing: 15px;
 }
@@ -201,6 +201,88 @@ body {
     margin: 10px;
     display: inline-block;
 }
+.header {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+.cap{
+    text-align: left;
+    font-size: 15px;
+}
+.small-text {
+    display: block;
+    font-size: 15px;
+    color: blue;
+    margin-top: 7px;
+
+}
+.tablin {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin-top: -15px;
+    border-spacing: 15px;
+    
+}
+.greybac{
+    display: block;
+    height: auto;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) -10%, rgba(0, 0, 0, 1) 100%);
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 108px;
+}
+.tdata {
+    text-align: left;
+    position: relative;
+    padding: 10px 10px 10px 50px;
+    background: rgba(255, 255, 255, 0.8); 
+    width: 100px;
+    margin: 0 auto;
+    z-index: 2;
+    
+}
+.tdata img, .tabled img, .tdat img  {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+.tdata, .tabled, .tdat {
+    width: 250px; 
+    height: 300px; 
+    vertical-align: top; 
+}
+.tabled{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8); 
+    width: 80px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.tdata img {
+    width: 100px;
+    height: 95px;
+    margin: 10px;
+    display: inline-block;
+}
+.tabled img {
+    width: 80px;
+    height: 75px;
+    margin: 10px;
+    display: inline-block;
+}
+
 .header {
     font-size: 20px;
     margin-top: 15px;
