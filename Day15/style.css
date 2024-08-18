@@ -113,6 +113,17 @@ body {
     align-items: center;
     height: 40px;
 }
+.backbox3{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    border-radius:  0px 5px 5px 0px;
+    border-color: rgb(27, 27, 27);
+    border-width: 2px;
+    margin-top: -20px;
+}
 .menu-icon {
     width: 50px;
     cursor: pointer;
@@ -149,6 +160,7 @@ body {
     font-weight: 400;
     padding: 0 0 0 15px;
 }
+
 .bookimg{
     display: block;
     height: auto;
@@ -167,11 +179,11 @@ body {
     position: relative;
     padding: 10px;
     margin-top: 250px;
-    border-spacing: 15px;
+    border-spacing: 30px;
 }
 
 .tdata {
-    text-align: left;
+    text-align: center;
     position: relative;
     padding: 10px;
     background: rgba(255, 255, 255, 0.8); 
@@ -218,15 +230,8 @@ body {
     font-size: 15px;
     color: blue;
     margin-top: 7px;
+    text-align: left;
 
-}
-.tablin {
-    width: 100%;
-    position: relative;
-    padding: 10px;
-    margin-top: -15px;
-    border-spacing: 15px;
-    
 }
 .greybac{
     display: block;
@@ -241,16 +246,7 @@ body {
     z-index: 1;
     margin-top: 108px;
 }
-.tdata {
-    text-align: left;
-    position: relative;
-    padding: 10px 10px 10px 50px;
-    background: rgba(255, 255, 255, 0.8); 
-    width: 100px;
-    margin: 0 auto;
-    z-index: 2;
-    
-}
+
 .tdata img, .tabled img, .tdat img  {
     width: 100%; 
     height: auto; 
@@ -301,4 +297,63 @@ body {
     color: blue;
     margin-top: 7px;
 
+}
+.best {
+    text-align: left;
+    position: relative;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    width: 100px;
+    margin: 0 auto;
+    z-index: 2;
+    
+}
+.best img {
+    width: 210px;
+    height: 230px;
+    margin: 10px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.tablin {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin-top: -15px;
+    border-spacing: 30px;
+    
+}
+.backbox3 {
+    width: 100%;
+}
+
+
+.headsettext {
+    text-align: center; /* Centers text in each cell */
+    padding: 15px; /* Adjust padding as needed */
+}
+.image-table {
+    width: 100%; /* Adjust to the desired width */
+    border-collapse: collapse; /* Removes space between table cells */
+}
+
+.round-image-container {
+    width: 90px; /* Adjust size as needed */
+    height: 90px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the container round */
+    background-color: #f0f0f0; /* Optional: Adds a background color */
+    display: flex;
+    overflow: hidden;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;
+}
+
+.round-image {
+    width: 100%; /* Ensures the image covers the container */
+    height: 100%; /* Ensures the image covers the container */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 50%; /* Makes the image round */
+}
+.image-table td {
+    padding: 0; /* Removes padding to ensure images are aligned properly */
 }
