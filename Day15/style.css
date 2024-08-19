@@ -164,7 +164,7 @@ body {
 .bookimg{
     display: block;
     height: auto;
-    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) -10%, rgba(0, 0, 0, 1) 100%);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, -2) -10%, rgba(0, 0, 0,3) 100%);
     mask-size: cover;
     mask-repeat: no-repeat;
     width: 100%;
@@ -287,6 +287,7 @@ body {
     font-weight: 400;
     text-align: left;
 }
+
 .cap{
     text-align: left;
     font-size: 15px;
@@ -329,31 +330,257 @@ body {
 
 
 .headsettext {
-    text-align: center; /* Centers text in each cell */
-    padding: 15px; /* Adjust padding as needed */
+    text-align: center; 
+    padding: 20px; 
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
 }
 .image-table {
-    width: 100%; /* Adjust to the desired width */
-    border-collapse: collapse; /* Removes space between table cells */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.image-table tr {
+    display: flex;
+    flex-direction: row; 
 }
 
 .round-image-container {
-    width: 90px; /* Adjust size as needed */
-    height: 90px; /* Adjust size as needed */
-    border-radius: 50%; /* Makes the container round */
-    background-color: #f0f0f0; /* Optional: Adds a background color */
+    width: 200px;
+    height: 200px;
+    border-radius: 55%;
+    background-color: #e2e1e1;
     display: flex;
     overflow: hidden;
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center;
+    margin: 20px ; 
+    margin-left: 150px;
 }
 
 .round-image {
-    width: 100%; /* Ensures the image covers the container */
-    height: 100%; /* Ensures the image covers the container */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-    border-radius: 50%; /* Makes the image round */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
 }
+
 .image-table td {
-    padding: 0; /* Removes padding to ensure images are aligned properly */
+    padding: -15px 0; 
 }
+.product-table {
+    width: 300px;
+    height: 270px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 50px ;
+    margin-left: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-spacing: 0;
+    margin-left: 150px;
+    
+
+}
+
+.image-cel {
+    padding: 20px;
+    object-fit: cover;
+}
+
+.product-image {
+    width: 70%;
+    height: 70%;
+}
+.product-imag {
+    width: 80%;
+    height: 80%;
+}
+.product-ima {
+    width: 76%;
+    height:  76%;
+}
+.product-im {
+    width: 65.5%;
+    height:  65.5%;
+}
+.product-i {
+    width: 77%;
+    height: 77%;
+}
+.product-name {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: #eeeeee;
+}
+
+.heade {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding: 30px;
+}
+.round-image-th{
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    padding: 10px 10px 10px 50px;
+    margin: 20px;
+    margin-left: 150px;
+    font-style: bold;
+}
+.product-nam {
+    font-size: 13px;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: #eeeeee;
+    text-decoration: line-through;
+    margin-top: -10px;
+}
+.product-na {
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: #eeeeee;
+}
+
+.bi-star-fill {
+    fill: #df7e00;
+    background-color: #eeeeee;
+    text-align: left;
+    display: flex; 
+    gap: - 15px; 
+    padding: 1px; 
+}
+
+.bi-star-fill svg {
+    width: 13px;
+    height: 13px;
+    margin: 0; 
+    stroke: #df7e00;
+    stroke-width: 0.7px;
+    line-height: 1.8;
+    display: block; 
+    margin-left: 7px;
+}
+.rating{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(47, 125, 170);
+    margin-left: 7px;
+    margin-top: -1px;
+}
+.image-ce {
+    padding: 20px;
+    margin-left: 200px;
+}
+.product-tabl {
+    width: 300px;
+    height: 270px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 50px ;
+    margin-left: -30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-spacing: 0;
+    row-gap: 5px;
+}
+
+.product-imag {
+    width: 100%;
+    height: 90%;
+}
+
+.product-name {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: #eeeeee;
+}
+
+.heade {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding: 30px;
+}
+
+.product-nam {
+    font-size: 13px;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: #eeeeee;
+    text-decoration: line-through;
+    margin-top: -10px;
+}
+.product-na {
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: #eeeeee;
+}
+
+.bi-star-fill {
+    fill: #df7e00;
+    background-color: #eeeeee;
+    text-align: left;
+    display: flex; 
+    gap: - 15px; 
+    padding: 1px; 
+}
+
+.bi-star-fill svg {
+    width: 13px;
+    height: 13px;
+    margin: 0; 
+    stroke: #df7e00;
+    stroke-width: 0.7px;
+    line-height: 1.8;
+    display: block; 
+    margin-left: 7px;
+}
+.rating{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(47, 125, 170);
+    margin-left: 7px;
+    margin-top: -1px;
+}
+.product-container {
+    display: flex;
+  }
+
+   
+
+  
+ 
+  
+
+  
+ 
+  
