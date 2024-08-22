@@ -1,3 +1,5 @@
+CSS:
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body {
@@ -347,16 +349,24 @@ body {
 }
 
 .round-image-container {
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     border-radius: 55%;
     background-color: #e2e1e1;
     display: flex;
     overflow: hidden;
     margin: 20px ; 
-    margin-left: 150px;
+    margin-left: 130px;
 }
-
+.round-image-th{
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    margin-left: 150px;
+    font-style: bold;
+    padding-left: 30px;
+}
 .round-image {
     width: 200px;
     height: 200px;
@@ -385,7 +395,24 @@ body {
     padding: 20px;
     object-fit: cover;
 }
-
+.deals-image {
+    width: 102%;
+    height: 102%;
+}
+.deals-imag {
+    width: 107.5%;
+    height: 107.5%;
+    object-fit: cover;
+    text-align: center;
+}
+.deals-ima {
+    width: 93%;
+    height: 93%;
+}
+.deals-im {
+    width: 95%;
+    height: 95%;
+}
 .product-image {
     width: 70%;
     height: 70%;
@@ -425,15 +452,7 @@ body {
     text-align: left;
     padding: 30px;
 }
-.round-image-th{
-    font-size: 18px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    padding: 10px 10px 10px 50px;
-    margin: 20px;
-    margin-left: 150px;
-    font-style: bold;
-}
+
 .product-nam {
     font-size: 13px;
     color: #333;
@@ -454,7 +473,15 @@ body {
     font-weight: 400;
     background-color: #eeeeee;
 }
-
+.tozo-na {
+    font-size: 14px;
+    color: #575757;
+    padding: 10px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: #eeeeee;
+}
 .bi-star-fill {
     fill: #df7e00;
     background-color: #eeeeee;
@@ -573,14 +600,141 @@ body {
 }
 .product-container {
     display: flex;
+    margin-top: 70px;
   }
 
-   
+.apple-table td {
+    padding: 10px;
+    padding-left: 70px;
+    vertical-align: top;
+    
+}
+.apple-image {
+    width: 400px;
+    height: 300px;
+}
+.apple-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+.apple-text{
+    font-size: 16px;
+    color: rgb(47, 125, 170);
+    line-height: 0.1;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+.apple-tex{
+    font-size: 16px;
 
-  
- 
-  
+    line-height: 0.1;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    margin-right: 10px; 
+    display: inline-flex;
+    align-items: left;
+}
+.apple-price {
+    color: #B12704;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.apple-details {
+    font-size: 22px;
+    color: #009625;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: left;
+    margin-top: 0.1px;
+}
+.apple-detail {
+    font-size: 16px;
+    color: #1a1a1a;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    align-items: left;
+    margin-top: -15px;
+}
+.apple-detai {
+    font-size: 16px;
+    color: #1a1a1a;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: left;
+    margin: 150px;
+}
+.buy-now-button {
+    background-color: #14132c;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}  
+.bi-star-fil {
+    fill: #df7e00;
+    text-align: left;
+    display: flex; 
+    padding: -30px; 
+    margin-left: 20px;
+    margin-top: -28px;
+}
 
-  
+.bi-star-fil svg {
+    width: 13px;
+    height: 13px;
+    margin: 0; 
+    stroke: #df7e00;
+    stroke-width: 0.7px;
+    line-height: 1.8;
+    display: block; 
+    margin-left: 7px;
+}
  
+.table-hr {
+    border: 1px solid #ddd;
+    width: 100%;            
+    margin: 0;              
+}
+.rating {
+    font-size: 1em;
+    margin: 0; 
+}
+
+.table-hr {
+    margin: -25px 0; 
+    border: 0;
+    border-top: 1px solid #cccccc;
+}
+
+.apple-details, .apple-detail {
+    margin: 0; 
+    padding: 0;
+}
+.set{
+    line-height: 0.1;
+    margin-top: -5px;
+}
+ .OPTION{
+    margin-top: -20PX;
+    
+ }
+ .about{
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+ }
+.headi{
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
   
