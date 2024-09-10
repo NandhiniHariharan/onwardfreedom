@@ -11,13 +11,14 @@ public class Person {
    }
    public String getName(){
       return this.name;
-   }
-   public Person(Person A){
+
+   } public Person(Person A){
      this.name=A.name;
      this.gender=A.gender;
      this.age=A.age;
    }
 
+  
    public void setName(String name){
       this.name=name;
    }
