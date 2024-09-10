@@ -1,4 +1,4 @@
-package Day19;
+package GetterMethod;
 
 public class Person {
     private String name;

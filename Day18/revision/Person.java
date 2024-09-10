@@ -9,8 +9,16 @@ public class Person {
     this.gender=gender;
     this.age=age;
    }
-   public static void main(String args[]){
-    Person person1=new Person("nandhini","female",21);
-    System.out.println(""+person1.name);
+   public String getName(){
+      return this.name;
+   }
+   public Person(Person A){
+     this.name=A.name;
+     this.gender=A.gender;
+     this.age=A.age;
+   }
+
+   public void setName(String name){
+      this.name=name;
    }
 }
