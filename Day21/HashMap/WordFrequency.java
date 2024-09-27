@@ -6,6 +6,7 @@ public class WordFrequency {
     public static void main(String args[]){
         String sentence="apple banana apple orange banana apple";
         String[] words=sentence.split(" ");
+        System.out.println(sentence);
         HashMap<String, Integer> wordCount=new HashMap<>();
         for(String word: words){
             if(wordCount.containsKey(word)){
