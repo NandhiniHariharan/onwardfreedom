@@ -4,6 +4,9 @@ public class Calculator {
     public int add(int a,int b){
         return a+b;
     }
+    public boolean numbers(String a, int b){
+        return true;
+    }
     public int subtract(int a, int b){
         return a-b;
     }

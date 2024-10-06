@@ -15,5 +15,8 @@ public class World {
        monkey1.walk();
        monkey1.eat();
        monkey1.shout();
+       Duck duck1= new Duck();
+       duck1.fly();
+       duck1.swim();
     }
 }
