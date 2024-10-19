@@ -18,6 +18,8 @@ public class FinallyBlock {
             System.out.println("Error: Cannot divide by zero!");
         }catch(InputMismatchException I){
             System.out.println("Error: Please enter valid integers!");
+        }finally{
+            System.out.println("Process complete.");
         }
         sca.close();
     }
