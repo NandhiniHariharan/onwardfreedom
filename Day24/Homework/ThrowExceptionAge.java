@@ -13,10 +13,9 @@ public class ThrowExceptionAge {
     public static void main(String[] args) {
         Scanner sca=new Scanner(System.in);
         System.out.print("Enter the age: ");
-        ThrowExceptionAge validator =new ThrowExceptionAge();
         int age=sca.nextInt();
         try{
-            validator.checkAge(age);
+            checkAge(age);
         }catch(AgeException a){
             System.out.println("Error: You must be 18 or older to sign up.");
         }
