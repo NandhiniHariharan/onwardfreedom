@@ -1,4 +1,4 @@
-package Day25.DailyPracticeDay1;
+package Day25.LeetCode;
 import java.util.HashMap;
 import java.util.Scanner;
 
