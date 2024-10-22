@@ -17,5 +17,18 @@ public class RomenToInteger {
         map.put('C',100);
         map.put('D',500);
         map.put('M',1000);
+        int preValue=0;
+        for( int i=input.length()-1;i>=0;i--){
+            char charac=input.charAt(i);
+            int value=map.get(charac);
+            if(value<preValue){
+                sum-=value;
+            }
+            else{
+                sum+=value;
+            }
+            preValue=value;
+        }
+        System.out.println(sum);
     }
 }
