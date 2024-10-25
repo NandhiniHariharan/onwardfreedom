@@ -17,9 +17,8 @@ public class PalindromeNumberStaticway {
     public static void main(String[] args) {
     Scanner sca=new Scanner(System.in);
     System.out.println("Enter the palindorme number: ");
-    int x=sca.nextInt();
-    PalindromeNumberStaticway palindromeNumber=new PalindromeNumberStaticway();
-    System.out.println(palindromeNumber.palindrome(x));
+    int y=sca.nextInt();
+    System.out.println(palindrome(y));
     sca.close();
     }
 }
