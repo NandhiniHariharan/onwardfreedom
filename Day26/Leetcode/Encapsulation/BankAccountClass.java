@@ -1,4 +1,4 @@
-package Day26.RevisionTopics.Encapsulation;
+package Day26.Leetcode.Encapsulation;
 
 public class BankAccountClass {
     private String accountNumber;

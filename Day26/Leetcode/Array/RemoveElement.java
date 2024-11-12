@@ -1,4 +1,4 @@
-package Day26.RevisionTopics.Array;
+package Day26.Leetcode.Array;
 
 public class RemoveElement {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day26.RevisionTopics.Sorting;
+package Day26.Leetcode.Sorting;
 
 public class MergeSortedArray{
     public static void main(String[] args) {

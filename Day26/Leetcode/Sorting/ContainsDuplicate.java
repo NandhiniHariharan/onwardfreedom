@@ -1,4 +1,4 @@
-package Day26.RevisionTopics.Sorting;
+package Day26.Leetcode.Sorting;
 import java.util.HashSet;
 public class ContainsDuplicate {
     public static boolean duplicateFinding(int[] nums){
@@ -12,7 +12,7 @@ public class ContainsDuplicate {
         return false;
     }
     public static void main(String[] args) {
-        int[]nums={1,2,3,4};
+        int[]nums={1,2,3,3};
         System.out.println(duplicateFinding(nums));
     }
 }

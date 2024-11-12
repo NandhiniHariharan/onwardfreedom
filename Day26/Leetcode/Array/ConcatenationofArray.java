@@ -1,4 +1,4 @@
-package Day26.RevisionTopics.Array;
+package Day26.Leetcode.Array;
 public class ConcatenationofArray{
     public int[] concatenation(int[] nums){
         int[] ans=new int[2*nums.length];
