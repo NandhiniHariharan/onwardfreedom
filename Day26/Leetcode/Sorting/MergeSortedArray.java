@@ -29,4 +29,4 @@ public class MergeSortedArray{
             System.out.print(nums1[i] + " ");
         }
     }
-}
+}A
