@@ -2,7 +2,7 @@ package Day27.Nov2024weekTask;
 import java.util.HashSet;
 import java.util.Scanner;
 public class ReverseVowelsOfaString {
-    public String reversingVowerls(String s){
+    public char[] reversingVowerls(String s){
         HashSet<Character> vowels=new HashSet<>();
         vowels.add('a');
         vowels.add('e');
@@ -30,12 +30,13 @@ public class ReverseVowelsOfaString {
             left++;
             right--;
         }
-          return new String(chars);
+          return chars;
         }
     public static void main(String[] args) {
         Scanner sca=new Scanner(System.in);
         System.out.println("Enter the word: ");
         String s=sca.nextLine();
+        sca.close();
         ReverseVowelsOfaString rev=new ReverseVowelsOfaString();
         System.out.println(rev.reversingVowerls(s));
     }
