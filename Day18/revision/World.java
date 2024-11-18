@@ -4,7 +4,6 @@ public class World {
     
     public static void main(String[] args) {
        Dog dog1=new Dog();
-       dog1.walk();
        dog1.eat();
        dog1.shout();
        Cat cat1=new Cat();
