@@ -17,7 +17,7 @@ public class MajorityElement{
         return canditate;
     }
     public static void main(String[] args) {
-        int[] nums={2,2,1,1,1,2,2};
+        int[] nums={2,1,2,1,2,3};
         MajorityElement element=new MajorityElement();
         System.out.println(element.majorityElement(nums));
     }
