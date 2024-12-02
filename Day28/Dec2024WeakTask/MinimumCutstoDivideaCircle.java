@@ -14,7 +14,7 @@ public class MinimumCutstoDivideaCircle {
         return n;
     }
     public static void main(String[] args) {
-        int n=0;
+        int n=4;
         MinimumCutstoDivideaCircle mini=new MinimumCutstoDivideaCircle();
         System.out.println(mini.dividingCricle(n));
     }
