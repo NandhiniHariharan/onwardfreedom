@@ -1,3 +1,4 @@
+package Feb2025WeekTask;
 public class FindtheMiddleIndexinArray {
     public int findMiddleIndex(int[] nums) {
         int totalSum = 0;
